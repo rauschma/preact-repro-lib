@@ -1,0 +1,17 @@
+{
+  "name": "preact-repro-lib",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "typesVersions": {
+    "*": {
+      "*": ["dist/*"]
+    }
+  },
+  "dependencies": {
+    "preact": "^10.5.14",
+    "preact-render-to-string": "^5.1.19"
+  }
+}
